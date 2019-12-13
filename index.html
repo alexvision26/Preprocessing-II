@@ -9,6 +9,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS-Animations/animate.css-master/animate.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -19,7 +20,7 @@
     <nav>
         <div class="navbar">
           <div class="logo">
-            <h1>Fun Bus</h1>
+            <h1 class="title animated lightSpeedIn">Fun Bus</h1>
           </div>
           <div class="links">
             <a href="#">Home</a>
@@ -42,8 +43,6 @@
           <p>Travelling expedition modern, clean web design blogger clean website theme website modern. Design pretty design, travelblogger adventure Wordpress wanderlust theme blogger travel writing blogger expedition them travel blogger. Adventurer travelblogger them website pretty design.</p>
         </div>
       </div>
-
-
 
     </header>
    
@@ -78,18 +77,40 @@
       <div class="destination">
         <h4>Fun In The Sun</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-        <div class="btn">Sign Me Up!</div>
+        <div class="btn animated infinite pulse">Sign Me Up!</div>
       </div>
       <div class="destination">
         <h4>Mountain Excursion</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-        <div class="btn">Sign Me Up!</div>
+        <div class="btn animated infinite pulse">Sign Me Up!</div>
       </div>
       <div class="destination">
         <h4>Island Getaway</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-        <div class="btn">Sign Me Up!</div>
+        <div class="btn animated infinite pulse">Sign Me Up!</div>
       </div>
+    </section>
+    <section>
+      <div class="vaca-form">
+        <h3>Select Your Vacation Package</h3>
+        <form>
+          <label>Your Name:</label>
+          <input name="name" type="text">
+          <label>Your Email:</label>
+          <input name="email" type="text">
+          <label>Select your package:</label>
+          <select name="vacation">
+            <option value="Fun In The Sun">Fun In The Sun</option>
+            <option value="Mountain Excursion">Mountain Excursion</option>
+            <option value="Island Getaway">Island Getaway</option>
+            <button type="button" onclick="#">Send</button>
+          </select>
+        </form>
+      </div>
+
+
+
+
     </section>
   </div><!-- container -->
 

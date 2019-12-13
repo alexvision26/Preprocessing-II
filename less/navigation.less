@@ -3,10 +3,15 @@
 .navbar {
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     padding: 2% 0;
     border-bottom: 2px dashed @navigation-border;
+
+    .logo {
+        padding-right: 4%;
+        white-space: nowrap;
+    }
 
     .links {
         display: flex;
@@ -21,12 +26,12 @@
         }
     }
 
-    @media @phone {
+    @media @mid-size {
         flex-direction: column;
         
         .links {
             padding: 3% 2% 0% 2%;
-            justify-content: space-evenly;
+            justify-content: space-around;
             width: 100%;
         }
     }
